@@ -13,6 +13,7 @@ public class TesteCliente {
 		objetoCliente.setNome("Matheus Macena");
 		objetoCliente.setIdade(28);
 		objetoCliente.setValor(42);
+        objetoCliente.setTelefone(964748800);
 		
 		/* Saídas
 		System.out.print("Nome: ");
@@ -25,7 +26,8 @@ public class TesteCliente {
 		System.out.println(objetoCliente.getValor());
 		*/
 		
-		System.out.println("Nome: " + objetoCliente.getNome() + "\nIdade: " + objetoCliente.getIdade());
+		System.out.println("Nome: " + objetoCliente.getNome() + "\nIdade: " + objetoCliente.getIdade()+ "\nTelefone: " + objetoCliente.getTelefone());
+
 	}
 
 }

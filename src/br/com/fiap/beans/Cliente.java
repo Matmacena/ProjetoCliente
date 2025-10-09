@@ -6,6 +6,7 @@ public class Cliente {
 	// Criando as variáveis com seu tipo
 	private String nome;
 	private int idade;
+    private int telefone;
 	private double valor;
 
 	// --- Setters ----
@@ -18,6 +19,8 @@ public class Cliente {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+
+    public  void setTelefone(int telefone) {this.telefone = telefone; }
 
 	public void setValor(double valor) {
 		this.valor = valor;
@@ -32,6 +35,8 @@ public class Cliente {
 		return idade;
 	}
 
+    public int getTelefone() { return telefone;
+    }
 	public double getValor() {
 		return valor;
 	}
