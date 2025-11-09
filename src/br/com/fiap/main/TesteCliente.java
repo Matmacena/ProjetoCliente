@@ -11,7 +11,7 @@ public class TesteCliente {
 		
 		// Entradas
 		objetoCliente.setNome("Matheus Santos");
-		objetoCliente.setIdade(30);
+		objetoCliente.setIdade(28);
 		objetoCliente.setValor(42);
         objetoCliente.setTelefone(978768971);
 		
