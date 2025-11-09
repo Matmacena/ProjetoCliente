@@ -1,5 +1,7 @@
 package br.com.fiap.beans;
 
+
+
 public class Cliente {
 	// visibilidade, tipo de dado e variável
 
@@ -11,7 +13,7 @@ public class Cliente {
 
 	// --- Setters ----
 
-	// Setters (tipo da var E nome var)
+	// Setters (tipo da variavel E nome variavel)
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
