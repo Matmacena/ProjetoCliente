@@ -10,6 +10,7 @@ public class Cliente {
 	private int idade;
     private int telefone;
 	private double valor;
+    private Endereco endereco;
 
 	// --- Setters ----
 
@@ -28,6 +29,10 @@ public class Cliente {
 		this.valor = valor;
 	}
 
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
 	// --- Getters ---
 	public String getNome() {
 		return nome;
@@ -37,10 +42,11 @@ public class Cliente {
 		return idade;
 	}
 
-    public int getTelefone() { return telefone;
-    }
+    public int getTelefone() { return telefone;}
+
 	public double getValor() {
 		return valor;
 	}
 
+    public Endereco getEndereco() {return endereco;}
 }
